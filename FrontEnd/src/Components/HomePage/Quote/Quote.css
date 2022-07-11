@@ -1,0 +1,36 @@
+.quote1{
+    height: 200px;
+}
+.dot {
+    height: 205px;
+    width: 205px;
+    background-color: rgb(88, 88, 88);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: -50px;
+    position: absolute;
+    margin-top: -180px;
+  }
+  #p2{
+    margin-top: 20px;
+    margin-left:  0px;
+    font-size: 16px;
+    
+  }
+  @media only screen and (max-width: 600px)  {
+  .dot {
+    /* height: 70px;
+    width: 70px;
+    background-color: rgb(147, 147, 147);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: -50px;
+    position: absolute;
+    margin-top: -60px; */
+    display: none !important;
+  }
+}
